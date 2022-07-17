@@ -9,11 +9,11 @@ module "network" {
   location            = var.location
 }
 
-module "keyvault" {
-  source              = "./modules/keyvault"
-  resource_group_name = module.rg.resource_group_name
-  location            = var.location
-}
+# module "keyvault" {
+#   source              = "./modules/keyvault"
+#   resource_group_name = module.rg.resource_group_name
+#   location            = var.location
+# }
 
 module "storage" {
   source              = "./modules/storage"
@@ -36,7 +36,7 @@ module "compute" {
   location            = var.location
   subnet_id           = module.network.subnet_id
   data_set            = module.keyvault.data_set
-  depends_on = [
-    module.keyvault
-  ]
+  # depends_on = [
+  #   module.keyvault
+  # ]
 }

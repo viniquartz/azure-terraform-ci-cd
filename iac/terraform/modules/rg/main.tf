@@ -1,8 +1,4 @@
-variable "prefix" {
-  default = "santiago"
-}
-
 resource "azurerm_resource_group" "arg-santiago" {
-  name     = "rg-${var.prefix}"
+  name     = "rg-${var.name_project}"
   location = var.location
 }

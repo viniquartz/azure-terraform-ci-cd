@@ -5,3 +5,7 @@ variable "resource_group_name" {
 variable "location" {
   default = ""
 }
+
+variable "name_project" {
+  default = ""
+}

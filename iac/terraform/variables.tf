@@ -6,6 +6,10 @@ variable "location" {
   default = ""
 }
 
+variable "name_project" {
+  default = ""
+}
+
 #module network
 variable "vnet_id" {
   default = ""

@@ -21,12 +21,12 @@ variable "resource_group_name" {
 
 variable "location" {
   type    = string
-  default = "eastus"
+  default = "eastus2"
 }
 
 variable "naming_prefix" {
   type    = string
-  default = "santiago"
+  default = "labgeneral"
 }
 
 ##################################################################################

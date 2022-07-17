@@ -1,4 +1,5 @@
-location = "eastus"
+location = "eastus2"
+name_project = "demo"
 #rg
 #virtual_network_id =
 #subnet_id = ""

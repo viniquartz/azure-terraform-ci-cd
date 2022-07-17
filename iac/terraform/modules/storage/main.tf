@@ -1,5 +1,5 @@
 resource "azurerm_storage_account" "blobsa" {
-  name                = "santiagoautomlsa"
+  name                = "santiago${var.name_project}"
   location            = var.location
   resource_group_name = var.resource_group_name
 
