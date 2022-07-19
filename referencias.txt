@@ -14,3 +14,5 @@ https://docs.rackspace.com/blog/create-a-vm-in-azure-by-using-terraform-with-for
 devops
 
 https://github.com/ned1313/Implementing-Terraform-on-Microsoft-Azure/blob/main/4-remote-state-prep/main.tf
+
+https://gmusumeci.medium.com/deploying-terraform-infrastructure-using-azure-devops-pipelines-step-by-step-d58b68fc666d
