@@ -1,6 +1,6 @@
 parameters:
-  terraformVersion: 0.14.3
-  tfsecVersion: v0.36.11
+  terraformVersion: 1.2.5
+  tfsecVersion: v1.26.3
   enableDownloadBuildTools: true
 
 steps:
